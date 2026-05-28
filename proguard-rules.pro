@@ -1,0 +1,7 @@
+-keep class com.google.gson.** { *; }
+-keep class okhttp3.** { *; }
+-keep class com.cryptooverlay.app.** { *; }
+-dontwarn okhttp3.**
+-dontwarn com.google.gson.**
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
