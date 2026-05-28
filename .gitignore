@@ -1,0 +1,36 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.aab
+
+# Android Studio
+.idea/
+.android/
+*.iml
+*.iws
+*.ipr
+
+# Local properties
+local.properties
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Binaries
+/bin/
+/gen/
+
+# Sensitive files
+keystore.jks
+*.keystore
